@@ -19,7 +19,7 @@ function one(a, b) {
 };
 
 function truthiness(a) {
- return 
+ return !!(a)
 };
 
 function isEqual(a, b) {
@@ -51,7 +51,7 @@ function startsWith(char, string) {
 };
 
 function containsVowels(string) {
-  return 
+  return /[aeiouAEIOU]/.test(string);
 };
 
 function isLowerCase(string) {
