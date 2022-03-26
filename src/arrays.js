@@ -1,17 +1,20 @@
 const getNthElement = (index, array) => {
-  // your code here
+  if( index < array.length && index > -1){
+    return array[index]; 
+}
+    
 };
 
 const arrayToCSVString = array => {
-  // your code here
+  return array.toString();
 };
 
 const csvStringToArray = string => {
-  // your code here
+  return array = string.split(',');
 };
 
 const addToArray = (element, array) => {
-  // your code here
+  array.push(element);
 };
 
 const addToArray2 = (element, array) => {
