@@ -51,7 +51,7 @@ return strings.filter (strings => /^[aeiou]/i.test(strings));
 };
 
 const removeSpaces = string => {
-  // your code here
+  return string.replace(/\s+/g, '')
 };
 
 const sumNumbers = numbers => {
