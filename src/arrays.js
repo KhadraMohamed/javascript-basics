@@ -1,5 +1,5 @@
 const getNthElement = (index, array) => {
-  if( index < array.length && index > -1){
+  if( index < array.length && index > -2){
     return array[index]; 
 }
     
@@ -26,17 +26,17 @@ const removeNthElement = (index, array) => {
 };
 
 const numbersToStrings = numbers => {
-  // your code here
+ 
 };
 
 const uppercaseWordsInArray = strings => {
-  // your code here
+  strings2 = strings.map (y=>y.toUpperCase ()) ;
+  return strings2;
 };
 
 const reverseWordsInArray = strings => {
-  // your code here
+  return strings.map(item => item.split("").reverse().join(""));
 };
-
 const onlyEven = numbers => {
   // your code here
 };
