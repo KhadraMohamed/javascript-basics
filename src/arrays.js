@@ -38,11 +38,12 @@ const reverseWordsInArray = strings => {
   return strings.map(item => item.split("").reverse().join(""));
 };
 const onlyEven = numbers => {
-  // your code here
+  return numbers.filter(elem => elem%2 == 0)
+
 };
 
 const removeNthElement2 = (index, array) => {
-  // your code here
+ 
 };
 
 const elementsStartingWithAVowel = strings => {
