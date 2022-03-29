@@ -22,11 +22,11 @@ const addToArray2 = (element, array) => {
 
 }
 const removeNthElement = (index, array) => {
-  array.splice (index, 1);
+  
 };
 
 const numbersToStrings = numbers => {
- 
+  
 };
 
 const uppercaseWordsInArray = strings => {
@@ -55,11 +55,15 @@ const removeSpaces = string => {
 };
 
 const sumNumbers = numbers => {
-  // your code here
+  var total = 0;
+  for (i = 0; i < numbers.length; ++i) {
+       total += numbers[i]; 
+  }
+  return total; 
 };
 
 const sortByLastLetter = strings => {
-  // your code here
+  
 };
 
 module.exports = {
