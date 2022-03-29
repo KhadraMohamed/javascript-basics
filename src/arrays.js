@@ -22,7 +22,7 @@ const addToArray2 = (element, array) => {
 
 }
 const removeNthElement = (index, array) => {
-  
+  array.splice (index, 1);
 };
 
 const numbersToStrings = numbers => {
